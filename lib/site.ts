@@ -20,7 +20,7 @@ export const siteConfig = {
       locale: 'vi_VN',
       url: baseUrl,
       siteName: 'l2md3v',
-      images: `/og?title=Welcome to my portfolio&desc=${description}`,
+      images: ``,
     },
     twitter: {
       card: 'summary_large_image',
