@@ -24,7 +24,7 @@ export const siteConfig = {
     },
     twitter: {
       card: 'summary_large_image',
-      creator: '@tiesen243',
+      creator: '@l2md3v',
     },
     icons: {
       icon: '/favicon.ico',
@@ -33,7 +33,7 @@ export const siteConfig = {
     },
     alternates: { canonical: baseUrl },
   },
-  email: 'ttien56906@gmail.com',
+  email: 'l2md3v@gmail.com',
 
   socials: [
     {
