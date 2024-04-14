@@ -34,8 +34,8 @@
 
     --radius: 0.5rem;
 
-    --from: #d973a2;
-    --to: #363cbf;
+    --from: #575757;
+    --to: #ffffff;
   }
 
   .dark {
@@ -67,8 +67,8 @@
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
 
-    --from: #e87e8b;
-    --to: #7dbfe8;
+    --from: #575757;
+    --to: #ffffff;
   }
 }
 
@@ -82,9 +82,15 @@
   }
 
   /* prettier-ignore  */
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply text-balance;
   }
+
   p {
     @apply text-pretty;
   }
@@ -92,9 +98,11 @@
   ::-webkit-scrollbar {
     @apply h-1 w-1;
   }
+
   ::-webkit-scrollbar-track {
     @apply bg-transparent;
   }
+
   ::-webkit-scrollbar-thumb {
     @apply rounded-full bg-ring;
   }
@@ -102,9 +110,12 @@
 
 @layer components {
   .topics {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
   }
+
   .topics::-webkit-scrollbar {
     display: none;
   }
