@@ -25,7 +25,7 @@ export const GET = async (_: NextRequest, { params }: Props): Promise<ImageRespo
     (
       <div tw="flex flex-col w-full h-full p-20 items-center justify-center bg-white" style={dotBg}>
         <div tw="flex justify-between w-full items-center">
-          <h1 tw="text-8xl ml-4">Tiesen</h1>
+          <h1 tw="text-8xl ml-4">L2m D3v</h1>
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ export const GET = async (_: NextRequest, { params }: Props): Promise<ImageRespo
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             alt={title}
-            src="https://avatars.githubusercontent.com/u/101703006?v=4"
+            src="https://avatars.githubusercontent.com/u/96229800?s=400&u=340e8d937f85ccb5a4d79fed4df8b4ab2c62c5a7&v=4"
             tw="rounded-md w-1/4 aspect-square"
           />
         </div>
