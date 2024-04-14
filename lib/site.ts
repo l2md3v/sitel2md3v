@@ -38,32 +38,32 @@ export const siteConfig = {
   socials: [
     {
       label: 'Github',
-      href: 'https://github.com/',
+      href: 'https://github.com/l2md3v',
       icon: icons.GithubIcon,
     },
     {
       label: 'Linkedin',
-      href: 'https://www.linkedin.com/in/tiesen243/',
+      href: 'https://www.linkedin.com/in/l2md3v/',
       icon: icons.LinkedinIcon,
     },
     {
       label: 'Facebook',
-      href: 'https://www.facebook.com/tiesen243/',
+      href: 'https://www.facebook.com/l2md3v/',
       icon: icons.FacebookIcon,
     },
     {
       label: 'Twitter',
-      href: 'https://twitter.com/tiesen243',
+      href: 'https://twitter.com/l2md3v',
       icon: icons.TwitterIcon,
     },
     {
       label: 'Youtube',
-      href: 'https://www.youtube.com/@tiesen243',
+      href: 'https://www.youtube.com/@l2md3v',
       icon: icons.YoutubeIcon,
     },
     {
       label: 'Support me',
-      href: 'https://me.momo.vn/tiesen243',
+      href: 'https://me.momo.vn/l2md3v',
       icon: icons.CoffeeIcon,
     },
   ],
