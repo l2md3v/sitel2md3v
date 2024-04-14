@@ -4,22 +4,22 @@ export const baseUrl =
   process.env.NODE_ENV === 'production' ? '#' : 'http://localhost:3000'
 
 const description =
-  "Hi there, I'm Tiesen, a web developer from Vietnam. I seft-taught and love to build new things."
+  "Hi there, I'm l2md3v, a web developer from Vietnam. I seft-taught and love to build new things."
 
 export const siteConfig = {
   metadata: {
     metadataBase: new URL(baseUrl),
-    title: { default: 'Tiesen', template: '%s | Tiesen' },
+    title: { default: 'l2md3v', template: '%s | l2md3v' },
     description,
-    authors: { name: 'Tiesen', url: baseUrl },
-    creator: '@tiesen243',
-    keywords: ['tiesen', 'tiesen243', 'tiesen 243', 'Trần Tiến', 'Tran Tien', 'portfolio', 'blog'],
-    applicationName: 'Tiesen',
+    authors: { name: 'l2md3v', url: baseUrl },
+    creator: '@l2md3v',
+    keywords: ['l2md3v', 'lamdev', 'l2md3v', 'LÂm Dev', 'Lam Dev', 'portfolio', 'blog'],
+    applicationName: 'l2md3v',
     openGraph: {
       type: 'profile',
       locale: 'vi_VN',
       url: baseUrl,
-      siteName: 'Tiesen',
+      siteName: 'l2md3v',
       images: `/og?title=Welcome to my portfolio&desc=${description}`,
     },
     twitter: {
