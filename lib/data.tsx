@@ -27,9 +27,9 @@ export const skills = [
 ]
 
 export const hobbies = [
-  'Watching anime',
-  'Reading manga and light novel',
-  'Playing some gacha game',
+  'Watching Life',
+  'Reading book',
+  'Noting Playing game',
 ]
 
 export interface Icon {
