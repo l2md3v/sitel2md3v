@@ -31,7 +31,7 @@ export const siteConfig = {
       shortcut: '/favicon-16x16.png',
       apple: '/apple-touch-icon.png',
     },
-    alternates: { canonical: baseUrl },
+    /* alternates: { canonical: baseUrl }, */
   },
   email: 'l2md3v@gmail.com',
 
