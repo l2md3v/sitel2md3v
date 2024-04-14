@@ -1,7 +1,7 @@
 import * as icons from 'lucide-react'
 
 export const baseUrl =
-  process.env.NODE_ENV === 'production' ? 'https://tiesen.id.vn' : 'http://localhost:3000'
+  process.env.NODE_ENV === 'production' ? '#' : 'http://localhost:3000'
 
 const description =
   "Hi there, I'm Tiesen, a web developer from Vietnam. I seft-taught and love to build new things."
