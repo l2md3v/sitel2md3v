@@ -62,7 +62,7 @@ const config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       backgroundImage: {
-        'gradient-yuki': 'linear-gradient(135deg, var(--from), var(--to))',
+        'gradient-l2md3v': 'linear-gradient(135deg, var(--from), var(--to))',
       },
       keyframes: {
         'accordion-down': {
