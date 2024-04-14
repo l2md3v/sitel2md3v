@@ -23,7 +23,7 @@ export const siteConfig = {
       images: `#`,
     },
     twitter: {
-      card: 'summary_large_image',
+      card: '#',
       creator: '@l2md3v',
     },
     icons: {
