@@ -27,7 +27,7 @@ export const About: React.FC = () => (
         playsInline
         className="aspect-square w-full rounded-lg md:col-span-4"
       >
-        <source src="/images/yuki.webm" type="video/webm" />
+        <source src="/images/l2md3v.mp4" type="video/mp4" />
       </video>
     </section>
 
