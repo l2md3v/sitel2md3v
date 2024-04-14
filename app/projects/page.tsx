@@ -39,18 +39,24 @@ const Page: NextPage = async () => {
         ))}
       </section>
 
-      <section className="mt-4 space-y-4">
-        {Array.from({ length: 0 }).map((_, i) => (
-          <Image
-            key={i}
-            src={``}
-            alt={`Design ${i + 1}`}
-            className="rounded-lg object-cover shadow-lg"
-            width={1920}
-            height={1080}
-          />
-        ))}
-      </section>
+      <h1
+        style={{
+          display: 'inline-block',
+          margin: '0 20px 0 0',
+          paddingRight: '0.1px',
+          fontSize: '24px',
+          fontWeight: '500',
+          verticalAlign: 'top',
+          lineHeight: '49px',
+        }}
+      >
+        404 |
+      </h1>
+      <div style={{ display: 'inline-block', textAlign: 'left' }}>
+        <h2 style={{ fontSize: '14px', fontWeight: '400', lineHeight: '49px', margin: '0' }}>
+          This page could not be found.
+        </h2>
+      </div>
 
       <ScrollToTop />
     </>
