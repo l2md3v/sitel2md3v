@@ -36,7 +36,7 @@ const Footer: React.FC<{ className?: string }> = ({ className }) => (
     <hr className="my-4" />
     <div className="container">
       <Typography variant="p" clr="muted" className="text-center">
-        &copy; CopyRight {new Date().getFullYear()} | Tiesen. All rights reserved.
+        &copy; CopyRight {new Date().getFullYear()} | L2mD3v. All rights reserved.
       </Typography>
     </div>
   </footer>

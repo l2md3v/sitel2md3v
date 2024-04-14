@@ -29,7 +29,7 @@ export const skills = [
 export const hobbies = [
   'Watching Life',
   'Reading book',
-  'Noting Playing game',
+  'Not Playing game',
 ]
 
 export interface Icon {
