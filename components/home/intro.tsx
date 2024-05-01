@@ -1,39 +1,26 @@
 'use client'
 
-import { Typography } from '@/components/ui/typography';
-import { TypeAnimation } from 'react-type-animation';
-
-const words = ['L2mD3v', 'Junior Software engineer', 'Security Researcher', 'Senior Web Engineer'];
-
-const sq = (words: string[]): (string | number)[] => {
-  const result = [];
-  for (const i of words) {
-    result.push(i);
-    result.push(1000);
-  }
-  return result;
-};
+import { TypeAnimation } from 'react-type-animation'
 
 export const Intro: React.FC = () => (
-  <article className="flex flex-col items-center gap-4">
-    <Typography variant="h2" className="border-none">
-      Hello, I&apos;m
-    </Typography>
+  <h1 className="text-center font-mono text-3xl font-black md:text-5xl">
+    {'< '}
+    <TypeAnimation
+      className="bg-gradient-l2md3v bg-clip-text text-transparent"
+      sequence={sequence}
+      repeat={Infinity}
+    />
+    {'/>'}
+  </h1>
+)
 
-    <Typography
-      variant="h1"
-      className="h-14 select-none font-mono"
-      style={{
-       
-      }}
-    >
-  <TypeAnimation sequence={sq(words)} repeat={Infinity} speed={10} />
-  </Typography>
-
-    <Typography className="text-balance text-center">
-      I&apos;m a developer who loves to build things. I&apos;m currently working on a few projects
-      and learning new things every day. I&apos;m passionate about open-source and I love to
-      contribute to the community.
-    </Typography>
-  </article>
-);
+const sequence = [
+  'Junior Software engineer',
+  1000,
+  'Security Researcher',
+  1000,
+  'Senior Web Engineer',
+  1000,
+  'Web Pentest',
+  1000,
+]
