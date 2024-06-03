@@ -13,7 +13,7 @@ export const baseUrl =
   process.env.NODE_ENV === 'production' ? 'https://l2md3vsite.vercel.app/' : 'http://localhost:3000'
 
 export const description =
-  "I'm a web developer who loves to build things. I enjoy working with TypeScript, Next.js, and ElysiaJS. I'm also a fan of anime, manga, and light novels."
+  "I'm a web developer who loves to build things. I enjoy working with TypeScript, Next.js, and ElysiaJS. I'm also a fan of CyberJustu."
 
 interface SiteConfig {
   meta: Metadata
